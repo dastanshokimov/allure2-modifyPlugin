@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 public class InfluxDbExportPlugin extends CommonMetricAggregator {
 
     public InfluxDbExportPlugin() {
-        super("influxDbData.txt");
+        super("ModifiedInfluxDbData.txt");
     }
 
     @Override
